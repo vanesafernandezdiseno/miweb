@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+
+.navbar {
+    background-color: #ff7e6a;
+}
+
+.logotipoCabecera {
+    height: 45px;
+}
+
+
+.menu li a {
+    text-decoration-line: none;
+    color: white;
+    display: inline;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: small;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+}
+
+.menu li a:hover {
+
+    color: black;
+}
+
+body {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.tituloh1 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 35px;
+    color: #ff7e6a;
+    text-align: left;
+
+}
+
+.subtituloh2 {
+    color: cornflowerblue;
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 1, 7;
+}
+
+.subtituloh3 {
+
+    padding-top: 20px;
+    color: #ff7e6a;
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+}
+
+.subtituloh3Blanco {
+    color: white;
+}
+
+p {
+    line-height: 2;
+    font-size: 20px;
+    font-style: light;
+}
+
+.contenedorHome {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: auto;
+    /* Margen izquierdo automático (centra el contenido) */
+    margin-right: auto;
+    /* Margen derecho automático (centra el contenido) */
+    max-width: 1200px;
+    /* Ancho máximo del contenido (ajusta según tus necesidades) */
+
+}
+
+.chicaPortada {
+    flex: 1;
+    padding: 20px;
+}
+
+.presentacionVanesa {
+    display: 2;
+    padding: 20px;
+    align-items: center;
+}
+
+.botonConoceme {
+
+    background-color: #ff7e6a;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+
+
+}
+
+.botonConoceme:hover {
+    background-color: cornflowerblue;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width:768px) {
+    .contenedorHome {
+        flex-direction: column;
+    }
+
+    .chicaPortada {
+        max-width: 100%;
+    }
+}
+
+.carruselImagenes {
+    background-color: #f9f6e6;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.carruselImagenes img {
+    width: 20%;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .carruselImagenes {
+
+        flex-direction: column;
+    }
+
+    .carruselImagenes img {
+        width: 100%;
+    }
+
+
+}
+
+
+
+.contenedorListaServicios {
+
+    align-items: center;
+    padding: 20px;
+    margin-left: auto;
+    /* Margen izquierdo automático (centra el contenido) */
+    margin-right: auto;
+    /* Margen derecho automático (centra el contenido) */
+    max-width: 1200px;
+    /* Ancho máximo del contenido (ajusta según tus necesidades) */
+
+
+}
+
+.listaServicios button {
+
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid #000
+}
+
+.accordion {}
+
+.accordion-header {
+    text-align: center;
+    background-color: #f9f6e6;
+    color: #ff7e6a;
+}
+
+.accordion-button {
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    padding: 15px;
+    border: none;
+}
+
+.accordion-button:after {
+    content: none;
+}
+
+.accordion-button:hover {
+    color: #ff7e6a;
+    background-color: #f9f6e6;
+}
+
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background-color: inherit;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none;
+}
+
+.contenedorDisenoGrafico {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-left: auto;
+    /* Margen izquierdo automático (centra el contenido) */
+    margin-right: auto;
+    /* Margen derecho automático (centra el contenido) */
+    max-width: 1200px;
+    /* Ancho máximo del contenido (ajusta según tus necesidades) */
+
+}
+
+.chicaPortada {
+    flex: 1;
+    padding: 20px;
+}
+
+.presentacionVanesa {
+    display: 2;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.collapseOne {
+    flex: 1;
+    padding: 20px
+}
+
+.imagenDisenoGrafico {
+    display: 2;
+    padding: 20px;
+    align-items: center;
+
+}
+
+.btn-primary {
+    text-align: center;
+    justify-content: center;
+    background-color: #ff7e6a;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+.btn-primary :hover {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}
+
+.opiniones {
+    text-align: center;
+    background-color: #ff7e6a;
+}
+
+.opinionesClientes {
+    background-color: #ff7e6a;
+    justify-content: center;
+    border: none;
+    width: 100%;
+}
+
+.card-img-top {
+    position: center;
+    width: 70px;
+    height: 70px;
+}
+
+.btn-outline-secondary {
+    border-radius: 20px;
+}
+
+.btn-outline-secondary :hover {
+    background-color: #ff7e6a;
+    text-transform: uppercase;
+}
+
+.contactaConNosotros {
+    padding: 100px;
+    background-color: #f9f6e6;
+    text-align: center;
+    justify-content: center;
+}
+
+.botonContactoPortada {
+    text-align: center;
+    background-color: #ff7e6a;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    height: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.botonContactoPortada:hover {
+    background-color: cornflowerblue;
+    color: white;
+
+}
+
+/* .botonListaServicios button:hover {
+
+    color: #ff7e6a;
+    background-color: #f9f6e6;
+} */
+
+
+
+
+
+footer {
+    background-color: #FFC2C2;
+    /* Fondo rosa */
+    color: black;
+    /* Texto negro */
+    padding: 20px;
+    /* Espaciado interior */
+    text-align: center;
+    /* Alineación centrada */
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.logotipoFooter {
+    width: 100px;
+    /* Tamaño del logotipo */
+    height: auto;
+    /* Altura automática */
+}
+
+.menuFooter {
+    list-style: none;
+    /* Elimina los puntos de lista */
+
+    padding: 0;
+}
+
+.menuFooter li {
+    display: inline;
+    margin-right: 20px;
+    /* Espaciado entre elementos del menú */
+}
+
+.menuFooter li a {
+    color: black;
+    /* color negro para los enlaces */
+    text-decoration: none;
+    text-transform: uppercase;
+    /* Sin subrayado */
+}
+
+.menuFooter li a:hover {
+    color: white;
+}
+
+
+.direccion {
+    margin-top: 20px;
+    /* Espaciado superior */
+}
+
+.redesSociales {
+    margin-top: 20px;
+    /* Espaciado superior */
+}
+
+.redesSociales a {
+    text-decoration: none;
+    margin-right: 10px;
+    /* Espaciado entre íconos */
+}
+
+.icono {
+
+    width: 50;
+    height: 50;
+}
+
+.contactoPortada {
+    text-align: center;
+    /* Centrar la imagen horizontalmente */
+}
+
+.contactoPortada img {
+
+    width: 100%;
+    height: auto;
+}
+
+.portadaServicios {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cabeceraPortfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh
+}
+
+.cabeceraPortfolio img {
+    max-width: 100%;
+    /* Asegurar que la imagen no sea más ancha que la ventana */
+    max-height: 100%
+}
+
+.portadaSobreMi {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.portadaSobreMi img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.container row img {
+    height: 370px
+}
+
+.imagenPortfolio {
+    height: 370px;
+}
